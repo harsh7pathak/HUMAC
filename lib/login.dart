@@ -18,7 +18,7 @@ class Login extends StatelessWidget {
         Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/loginbackground.jpg'),
+                image: AssetImage('assets/login2.jpg'),
               fit: BoxFit.cover,)
           ),
           //color: Colors.black,
@@ -56,7 +56,7 @@ class Login extends StatelessWidget {
 
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Colors.black26,
+                       // color: Colors.black26,
                         shape: BoxShape.rectangle,
                         borderRadius: BorderRadius.circular(20.0)),
 
